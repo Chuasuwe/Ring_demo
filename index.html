@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Ring Scroll Demo</title>
+    <link rel="stylesheet" href="src/styles.scss">
+    <!-- 添加Google字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 加载界面 -->
+    <div class="loader">
+        <div class="progress"></div>
+    </div>
+
+    <!-- 主要内容区域 -->
+    <div class="sections-container">
+        <section class="section view-1">
+            <div class="content">
+                <h1>璀璨之美</h1>
+                <p>精致工艺，完美呈现</p>
+                <div class="scroll-hint">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section view-2">
+            <div class="content">
+                <h1>优雅设计</h1>
+                <p>每一个角度都是艺术</p>
+                <div class="scroll-hint">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section view-3">
+            <div class="content">
+                <h1>闪耀光芒</h1>
+                <p>红宝石的璀璨之光</p>
+                <div class="scroll-hint">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section view-4">
+            <div class="content">
+                <h1>完美视角</h1>
+                <p>尽显皇冠设计之美</p>
+                <div class="scroll-hint">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section view-5">
+            <div class="content">
+                <h1>匠心独运</h1>
+                <p>细节之处见真章</p>
+                <div class="scroll-hint">
+                    <div class="arrow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section view-6">
+            <div class="content">
+                <h1>永恒之美</h1>
+                <p>为您呈现永恒之作</p>
+            </div>
+        </section>
+    </div>
+
+    <!-- 3D 渲染画布 -->
+    <div id="webgi-canvas-container">
+        <canvas id="webgi-canvas"></canvas>
+    </div>
+
+    <script src="src/index.ts"></script>
+</body>
+</html> 
