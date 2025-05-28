@@ -80,7 +80,7 @@ async function setupViewer() {
     });
 
     // 加载3D模型
-    await manager.addFromPath("assets/ring_webgi.glb");
+    await manager.addFromPath("./assets/ring_webgi.glb");
 
     // 设置所有宝石颜色为红色
     const diamondNames = [

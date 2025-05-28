@@ -5,7 +5,8 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.html --no-minify --public-url ./"
+    "build": "parcel build index.html --no-minify --public-url ./",
+    "build-gh": "parcel build index.html --no-minify --public-url /Ring_demo/"
   },
   "devDependencies": {
     "@types/three": "^0.139.0",
