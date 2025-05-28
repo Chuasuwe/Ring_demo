@@ -73271,7 +73271,7 @@ function setupViewer() {
             });
           });
           // 加载3D模型
-          return [4 /*yield*/, manager.addFromPath("assets/ring_webgi.glb")];
+          return [4 /*yield*/, manager.addFromPath("./assets/ring_webgi.glb")];
         case 9:
           // 加载3D模型
           _a.sent();
@@ -73344,7 +73344,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55782" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58264" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
