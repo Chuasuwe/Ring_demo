@@ -73320,4 +73320,4 @@ function setupViewer() {
 // 启动应用
 setupViewer();
 },{"webgi":"rbXN","gsap":"f8Z0","gsap/ScrollTrigger":"rpvU"}]},{},["B6dB"], null)
-//# sourceMappingURL=/Ring_demo/src.45fc0236.js.map
+//# sourceMappingURL=src.45fc0236.js.map
